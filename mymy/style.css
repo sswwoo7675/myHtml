@@ -1,0 +1,96 @@
+/******************헤더******************/
+#main_header {
+    width: 1100px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+}
+
+#main_header > #site_name {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+#main_header > #nav_gnb {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#main_header > #nav_lnb {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+}
+
+/******************네비1******************/
+#nav_gnb > ul {
+    overflow: hidden;
+}
+
+#nav_gnb > ul > li {
+    float: left;
+}
+
+#nav_gnb > ul > li > a {
+    display: block;
+    border: 1px solid black;
+    padding: 2px 10px;
+}
+
+#nav_gnb > ul > li:first-child > a {
+    border-radius: 10px 0 0 10px;
+}
+
+#nav_gnb > ul > li:last-child > a {
+    border-radius: 0 10px 10px 0;
+}
+
+/******************네비2******************/
+#nav_lnb > ul {
+    overflow: hidden;
+}
+
+#nav_lnb > ul > li {
+    float: left;
+}
+
+#nav_lnb > ul > li > a {
+    display: block;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+#nav_lnb > ul > li:first-child > a {
+    border-radius: 10px 0 0 10px;
+}
+
+#nav_lnb > ul > li:last-child > a {
+    border-radius: 0 10px 10px 0;
+}
+
+/******************메인******************/
+#main_content {
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#main_content > #contents {
+    width: 885px;
+    float: left;
+}
+
+#main_content > #main_side {
+    width: 205px;
+    float: right;
+}
+
+/******************컨텐츠******************/
+#contents > .main_article {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 20px 10px
+}

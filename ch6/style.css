@@ -118,3 +118,18 @@
     border-left:1px solid black;
     content:'';
 }
+
+/***************본문***************/
+#section_header {
+    padding: 20px;
+}
+#section_article {
+    padding: 10px;
+}
+
+/***************푸터***************/
+#main_footer {
+    padding: 10px;
+    border-top: 3px solid black;
+    text-align: center;
+}
