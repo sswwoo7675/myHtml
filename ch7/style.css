@@ -42,3 +42,18 @@
     font-weight: bold;
 }
 body {min-width: 760px;}
+
+/********************콘텐츠********************/
+#wrap {
+    overflow: hidden;
+}
+
+#wrap > #main_lnb {
+    float: left;
+    width: 200px;
+}
+
+#wrao > #content_wrap {
+    float: left;
+    width: 100%;
+}
